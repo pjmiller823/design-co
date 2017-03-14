@@ -73,6 +73,7 @@ section.new {
 
 .LoIp p {
   column-count: 3;
+  flex-grow: 3
 }
 
 section.scroll section {
