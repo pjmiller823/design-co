@@ -6,3 +6,83 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+hr{
+  border: none;
+  border
+}
+
+img {
+  align-content: center;
+}
+
+#search {
+  width: 1em;
+  align: right;
+  height: 20px;
+}
+
+nav {
+  background-color: #e5e6e8;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.2em solid red;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav .links a {
+  padding-right: 30px;
+  text-decoration: none;
+  color:inherit;
+}
+
+nav a:link {color:inherit;}
+nav a:hover {color: teal;}
+nav a:visited {color: red;}
+
+section.title h1, section.title, h2 {
+  text-align: center;
+}
+
+section.title h2 {
+  font-size: 1.2em;
+}
+
+section.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+
+section.scroll {
+  display: flex;
+  margin: 0 40px;
+}
+
+section.new {
+  flex: 1
+}
+
+.LoIp {
+  flex: 3
+}
+
+.LoIp p {
+  column-count: 3;
+}
+
+section.scroll section {
+  margin-right: 2em;
+}
+section.new h3 {
+  color: red;
+  font-size: 0.8em;
+}
+
+section.new a{
+  color: inherit;
+}
